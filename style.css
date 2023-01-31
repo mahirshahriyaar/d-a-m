@@ -22,6 +22,7 @@
     margin-right: 10px;
 
 }
+/* Middle banner  */
 .banner-container{
     display: flex;
     justify-content: center;
@@ -66,6 +67,7 @@
     margin: 5px;
 }
 
+/* service section left */
 .service-container{
     width: 100%;
     height: 100vh;
@@ -75,6 +77,10 @@
     color: white;
     padding: 20px;
     }
+.service-left{
+    margin-top: 200px;
+    margin-left: 200px;
+}
     
 .service-btn1{
     font-size: 18px;
@@ -99,7 +105,7 @@
 }
 .service-ul{
     margin-left: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 .author-details{
     display: flex;
@@ -129,28 +135,77 @@
     color: rgb(251, 50, 50);
     font-weight: 800;
 }
+
+/* service right */
+
 .service-container{
     display: flex;
     justify-content: space-around;
 }
-.service-up{
+.service-right{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.service-top{
     display: flex;
 }
 .service{
     padding: 10px;
     background-color: white;
     box-shadow: 4px, 4px, 8px, gray;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     text-align: center;
     color: black;
     border-radius: 10px;
     margin: 5px;
+    
 }
 .service-logo{
-    width: 50%;
-    padding-bottom: 10px;
+    width: 100px;
+    padding: 30px;
+    
 }
 .service-down{
     display: flex;
+    
+}
+/* Appointment  section*/
+.appointment-section{
+    width: 75%;
+    padding: 15px;
+    background-color: rgb(245, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: -80px;
+    color: white;
+}
+.appointment-logo{
+    width: 100px;
+    padding: 15px;
+}
+.call-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.appointment-h{
+   border-right: 4px solid gray;
+   padding: 10px;
+   /* margin-right: 10px;  */
+}
+.apointment-descript{
+    padding: 10px;
+    text-align: justify;
+    
+}
+.appointment-button{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
 }
